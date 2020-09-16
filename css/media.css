@@ -1,0 +1,173 @@
+/* Media Query For Tablet */
+@media only screen and (min-width: 768px) {
+  #hero h1 {
+    font-size: 62px;
+  }
+
+  #header .nav-list ul li img {
+    display: block;
+  }
+  .container {
+    margin: 40px auto;
+    width: 90%;
+  }
+
+  .container > header h1 {
+    font-size: 48px;
+  }
+
+  .card {
+    flex-basis: 40%;
+    margin-top: 40px;
+  }
+
+  .container .row-1 {
+    margin: 0 30px;
+    justify-content: space-evenly;
+  }
+
+  .vertical-line {
+    display: none;
+    margin-left: 35px;
+  }
+
+  .row-2 {
+    justify-content: space-between;
+    margin-top: 100px;
+  }
+
+  .col-latest {
+    flex-basis: 62%;
+    align-items: flex-end;
+  }
+
+  .col-resources {
+    flex-basis: 36%;
+  }
+
+  .row-3 {
+    margin: 70px 0;
+  }
+
+  .img-gallery {
+    width: 50%;
+  }
+
+  .gallery-header h1 {
+    font-size: 48px;
+  }
+
+  .col-icon-content {
+    flex-basis: 40%;
+  }
+
+  .row-5 {
+    justify-content: flex-start;
+  }
+
+  .provide-header h1 {
+    padding-top: 70px;
+    font-size: 48px;
+  }
+
+  .quick-links li {
+    padding: 0 15px;
+  }
+  .col-resources li {
+    padding: 20px 0;
+  }
+}
+
+/* End Media Query For Tablet */
+
+/* Media Query For Desktop */
+@media only screen and (min-width: 1200px) {
+  #hero h1 {
+    font-size: 82px;
+  }
+
+  #header .hamburger {
+    display: none;
+  }
+
+  #header .nav-list ul {
+    position: initial;
+    display: block;
+    height: auto;
+    width: fit-content;
+    background-color: transparent;
+  }
+
+  #header .nav-list ul li {
+    display: inline-block;
+  }
+
+  #header .nav-list ul li:last-child {
+    padding-right: 10px;
+    padding-top: 3px;
+  }
+
+  #header .nav-list ul li a {
+    color: #fff;
+    padding: 10px 20px;
+    font-size: 16px;
+    margin: 0 5px;
+  }
+
+  #header .nav-list ul a:after {
+    display: none;
+  }
+
+  .container > header {
+    margin: 120px 0 30px 0;
+  }
+
+  .card {
+    flex-basis: 25%;
+    margin: 20px 40px;
+  }
+
+  .col-latest {
+    flex-basis: 42%;
+    padding-left: 15px;
+    align-items: flex-start;
+  }
+
+  .col-resources {
+    flex-basis: 40%;
+  }
+
+  .col-resources > h1,
+  .col-latest > h1 {
+    font-size: 48px;
+  }
+
+  .vertical-line {
+    display: flex;
+  }
+
+  .row-3 {
+    margin: 150px 0;
+  }
+
+  .img-gallery {
+    justify-content: flex-start;
+    flex-direction: row;
+    width: 33.3%;
+  }
+
+  .row-5 {
+    justify-content: center;
+  }
+
+  .col-icon-content {
+    flex-basis: 28%;
+  }
+
+  .quick-links li {
+    padding: 0 20px;
+  }
+  .col-resources li {
+    padding: 20px 0;
+  }
+}
